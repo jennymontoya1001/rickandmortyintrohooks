@@ -10,7 +10,9 @@ export const Navbar = () => {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-               
+                <a className="navbar-brand" href="/">
+                    <image src="http://www.tutorialesprogramacionya.com/imagenes/foto1.jpg" width="30" height="30" alt="" />
+                </a>
                 <div className="collapse navbar-collapse" id="opciones">
                     <ul className="navbar-nav">
                         <li className="nav-item">
