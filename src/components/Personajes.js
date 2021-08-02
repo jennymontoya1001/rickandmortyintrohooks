@@ -33,7 +33,7 @@ export const Personajes = () => {
                         <div className="card-body">
                             <h5 className="card-title">{per.name}</h5>
                             <p className="card-text">{per.species}</p>
-                            <a href="#" className="btn btn-primary">...Más</a>
+                            <a href="/" className="btn btn-primary">...Más</a>
                         </div>
                     </div>
                 ))
