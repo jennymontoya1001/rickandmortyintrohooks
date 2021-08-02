@@ -29,7 +29,7 @@ export const Personajes = () => {
                 personaje.map(per => (
 
                     <div className="card" key={per.id}>
-                        <img className="card-img-top" src={per.image} alt="Card image cap" />
+                        <img className="card-img-top" src={per.image} alt="" />
                         <div className="card-body">
                             <h5 className="card-title">{per.name}</h5>
                             <p className="card-text">{per.species}</p>
